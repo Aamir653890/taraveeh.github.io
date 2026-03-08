@@ -1223,7 +1223,7 @@
                 UIManager.els.ui.surahList.innerHTML = '';
                 UIManager.els.ui.surahList.appendChild(Utils.safeCreate('div', 'empty-history', 'Failed to load Quran data. Please check your internet connection.'));
             }
-        },
+        }, 
 
         async loadSurahVerses(chapterId) {
             // FIX 4: Check if verses are already cached in memory
